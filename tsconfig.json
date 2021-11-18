@@ -16,6 +16,21 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+
+    "importHelpers": true,
+    "strict": false,
+    "allowJs": true,
+    "checkJs": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitThis": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    
+    "moduleResolution": "node",
+    "suppressImplicitAnyIndexErrors": true,
+    "preserveConstEnums": true,
+    "lib": ["es6", "dom", "scripthost", "esnext.asynciterable"]
   }
 }

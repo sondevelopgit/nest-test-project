@@ -1,0 +1,36 @@
+{
+    "editor.wordWrap": "on",
+    "[typescript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "eslint.lintTask.enable": true,
+    "eslint.format.enable": true,
+    "eslint.packageManager": "yarn",
+    "editor.tabSize": 4,
+    "eslint.alwaysShowStatus": true,
+    "eslint.validate": [
+        "javascript",
+        "typescript"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.tslint": true,
+        "source.fixAll": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "git.ignoreLimitWarning": true,
+    "files.autoSave": "off",
+    "javascript.format.enable": false,
+    "vetur.useWorkspaceDependencies": true,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": false,
+    "standard.autoFixOnSave": true,
+    
+    "eslint.executeAutofix": true,
+    "javascript.validate.enable": false,
+    "typescript.format.enable": false,
+    "vetur.validation.style": false,
+    "vetur.validation.template": false
+}

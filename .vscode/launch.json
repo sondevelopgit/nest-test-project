@@ -1,0 +1,43 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch",
+            "type": "node",
+            "request": "launch",
+            "preLaunchTask": null,
+            "cwd": "${workspaceRoot}",
+            "runtimeExecutable": null,
+            "args": ["${workspaceFolder}\\src\\bin\\www.ts"],
+            "runtimeArgs": [
+                "--nolazy",
+                "-r",
+                "ts-node/register",
+                "-r",
+                "tsconfig-paths/register"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "skipFiles": [
+                "${workspaceFolder}\\node_modules\\**\\*.js",
+                "<node_internals>/**/*.js",
+                "${workspaceRoot}/dist/**/*.js.map",
+                "${workspaceRoot}/dist/*.js.map"
+            ],
+            "outFiles": [
+                "${workspaceFolder}/src/**/*.js",
+                "${workspaceFolder}/src/*.js",
+                "${workspaceRoot}/dist/**/*.js",
+                "${workspaceRoot}/dist/*.js"
+            ],
+            "restart": true,
+            "protocol": "inspector",
+            "trace": true,
+            "showAsyncStacks": true,
+            "sourceMaps": true,
+            "stopOnEntry": false,
+            "smartStep": true
+        }
+    ]
+}
